@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{28F10C13-67CF-4F5B-9832-4BEBA904ABA7}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint conditionExpression="b3 != 0" file="/Users/qosmi/work_co/c_sharp/Diserver/Diserver/MainPage.xaml.cs" relfile="Diserver/MainPage.xaml.cs" line="133" column="9" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Diserver PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Diserver/MainPage.xaml.cs">
+    <Files>
+      <File FileName="Diserver/MainPage.xaml.cs" Line="55" Column="35" />
+      <File FileName="Diserver/MainPage.xaml" />
+      <File FileName="Diserver/Platforms/MacCatalyst/Program.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Diserver" expanded="True">
+            <Node name="Diserver" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="MacCatalyst" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+</Properties>

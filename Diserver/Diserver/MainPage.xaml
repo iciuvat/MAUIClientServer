@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diserver.MainPage" BackgroundColor="Blue">
+
+    <VerticalStackLayout
+        Padding="5,0"
+        VerticalOptions="Start"
+        BackgroundColor="Red">
+        
+        <FlexLayout Direction="Row"
+            Padding="5,0"
+            BackgroundColor="Aqua"
+            AlignItems="Center"
+            JustifyContent="SpaceEvenly">        
+
+            <Label Text="left top" HorizontalTextAlignment="Start"
+                FontSize="24"
+                BackgroundColor="DarkGreen"
+
+                FlexLayout.Grow="1"
+
+                />     
+            <Label Text="the Company" HorizontalTextAlignment="End"
+                FontSize="24"
+                BackgroundColor="DarkCyan"/>
+        </FlexLayout>
+
+        <Image
+            Source="dotnet_bot.png"
+            FlexLayout.Grow="1" 
+            HorizontalOptions="Center"
+            MinimumHeightRequest="600"/>
+
+        <FlexLayout Direction="Row"
+            Padding="5,0"
+            BackgroundColor="Aqua"
+            AlignItems="Center"
+            JustifyContent="SpaceEvenly"
+            MinimumHeightRequest="68">
+
+            <Label
+                HorizontalTextAlignment="Start"
+                FontSize="24"
+                BackgroundColor="DarkGreen">  
+                
+                <Label.Text>
+x
+aaaa
+                </Label.Text>
+
+            </Label>
+
+            <Label Text="bbb" HorizontalTextAlignment="Center"
+                FontSize="24"
+                x:Name="labelBottomCenter"
+
+                FlexLayout.Grow="1"
+
+                BackgroundColor="DarkRed"/>
+            <Label
+                HorizontalTextAlignment="End"
+                FontSize="24"
+                BackgroundColor="DarkCyan">
+                
+                <Label.Text>
+                    2 lines
+                    text
+                </Label.Text>
+
+            </Label>
+
+        </FlexLayout>
+
+
+    </VerticalStackLayout>
+    
+
+</ContentPage>
+
